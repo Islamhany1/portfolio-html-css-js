@@ -1,0 +1,307 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="islam hany" />
+    <meta name="description" content="my portfolio" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Porfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media-queries.css" />
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <section class="desktop-nav">
+        <p class="name">Islam Hany</p>
+        <nav class="page-navigation-desktop">
+          <ul class="desktop-links">
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#experience">Experience</a>
+            </li>
+            <li>
+              <a href="#projects"> Projects</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+
+      <section class="mobile-nav">
+        <p class="name">Islam Hany</p>
+        <nav class="page-navigation-mobile">
+          <div class="icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <ul class="mobile-links">
+            <li>
+              <a href="#about" onclick="toggleMenu()">About</a>
+            </li>
+            <li>
+              <a href="#experience" onclick="toggleMenu()">Experience</a>
+            </li>
+            <li>
+              <a href="#projects" onclick="toggleMenu()"> Projects</a>
+            </li>
+            <li>
+              <a href="#contact" onclick="toggleMenu()">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+    </header>
+
+    <main>
+      <section class="profile">
+        <figure class="profile-pic">
+          <img src="./assets/profile-pic.jpeg" alt="my picture" />
+        </figure>
+        <div class="info-about-me">
+          <div>
+            <p class="greeting">Hello, I'm</p>
+            <h1 class="title">Islam Hany</h1>
+            <p class="job">Full Stack Developer</p>
+          </div>
+          <div class="cv-contact">
+            <button class="btn cv" onclick="window.open('./assets/cv.pdf')">
+              Download CV
+            </button>
+            <button class="btn contact" onclick="location.href='./#contact'">
+              Contact Info
+            </button>
+          </div>
+          <figure class="social-info">
+            <img
+              src="./assets/linkedin.png"
+              alt="my linkedin profile"
+              class="linkedin-icon"
+              onclick="location.href='https://www.linkedin.com/in/eslam-elkasabi-0b8a27271/'"
+            />
+            <img
+              src="./assets/github.png"
+              alt="my github profile"
+              class="github-icon"
+              onclick="location.href='https://github.com/Islamhany1'"
+            />
+          </figure>
+        </div>
+      </section>
+      <section id="about">
+        <p class="greeting">Get To Know More </p>
+        <p class="title">About Me</p>
+        <div class="education-pic">
+            <figure>
+                <img src="./assets/profile-pic.jpeg" alt="my picture">
+            </figure>
+            <div class="education">
+                <div>
+                    <figure>
+                        <img src="./assets/education.png" alt="education">
+                    </figure>
+                    <h2>Education</h2>
+                    <p class="bachelor">B.Sc: Bachelors Degree</p>
+                    <p class="niversity">German University In Cairo</p>
+                    <p class="grade"> 1.07 (A)</p>
+                </div>
+                <p class="more-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam amet est non cum provident cumque praesentium hic excepturi aspernatur vero recusandae nemo molestiae repellendus beatae tenetur delectus inventore, sit dolorum!</p>
+            </div>
+        </div>
+      </section>
+      <p class="explore-paragraph">Explore My</p>
+      <p class="experience-paragraph">Experience</p>
+      <section id="experience">
+        
+        <div class="frontend">
+            <p class="frontend-text">Frontend Developement</p>
+            <ul class="frontend-languages">
+                <li>
+                    <figure>
+                        <img src="./assets/checkmark.png" alt="">
+                    </figure>
+                    <h2>Js</h2>
+                    <p>Experienced</p>
+                   
+                </li>
+                <li>
+                  <figure>
+                      <img src="./assets/checkmark.png" alt="">
+                  </figure>
+                  <h2>Js</h2>
+                  <p>Experienced</p>
+                 
+              </li>
+              <li>
+                <figure>
+                    <img src="./assets/checkmark.png" alt="">
+                </figure>
+                <h2>Js</h2>
+                <p>Experienced</p>
+               
+              </li>
+              <li>
+                    <figure>
+                        <img src="./assets/checkmark.png" alt="">
+                    </figure>
+                    <h2>Js</h2>
+                    <p>Experienced</p>
+                    
+                </li>
+                <li>
+                    <figure>
+                        <img src="./assets/checkmark.png" alt="">
+                    </figure>
+                    <h2>Js</h2>
+                    <p>Experienced</p>
+                    
+                </li>
+                <li>
+                    <figure>
+                        <img src="./assets/checkmark.png" alt="">
+                    </figure>
+                    <h2>Js</h2>
+                    <p>Experienced</p>
+                   
+                </li>
+
+                
+            </ul>
+        </div>
+        <div class="backend">
+          <p class="backend-text">Backend Developement</p>
+          <ul class="backend-languages">
+              <li>
+                  <figure>
+                      <img src="./assets/checkmark.png" alt="">
+                  </figure>
+                  <h2>Js</h2>
+                  <p>Experienced</p>
+                 
+              </li>
+              <li>
+                  <figure>
+                      <img src="./assets/checkmark.png" alt="">
+                  </figure>
+                  <h2>Js</h2>
+                  <p>Experienced</p>
+                  
+              </li>
+              <li>
+                  <figure>
+                      <img src="./assets/checkmark.png" alt="">
+                  </figure>
+                  <h2>Js</h2>
+                  <p>Experienced</p>
+                  
+              </li>
+              <li>
+                  <figure>
+                      <img src="./assets/checkmark.png" alt="">
+                  </figure>
+                  <h2>Js</h2>
+                  <p>Experienced</p>
+                 
+              </li>
+
+              
+          </ul>
+      </div>
+      </section>
+      <figure class="browse-to-projects">
+        <img src="./assets/arrow.png" alt="go to projects" onclick="location.href='./#projects'">
+      </figure>
+
+      <section id="projects">
+        <p>Browse My Recent </p>
+        <h2>Projects</h2>
+        <div class="all-projects">
+          <div class="project-1">
+            <figure>
+              <img src="./assets/project-1.png" alt="facebook" loading="lazy">
+            </figure>
+            <div class="project-name">
+              <h3>Project One</h2>
+            </div>
+            <div class="project-links">
+              <button class="project-btn btn" onclick="location.href='https://github.com/Islamhany1'">Github</button>
+              <button class="project-btn btn" onclick="location.href=''">Live Demo</button>
+            </div>
+            
+          </div>
+          <div class="project-1">
+            <figure>
+              <img src="./assets/project-1.png" alt="facebook" loading="lazy">
+            </figure>
+            <div class="project-name">
+              <h3>Project One</h2>
+            </div>
+            <div class="project-links">
+              <button class="project-btn btn" onclick="location.href='https://github.com/Islamhany1'">Github</button>
+              <button class="project-btn btn" onclick="location.href=''">Live Demo</button>
+            </div>
+            
+          </div>
+          <div class="project-1">
+            <figure>
+              <img src="./assets/project-1.png" alt="facebook" loading="lazy">
+            </figure>
+            <div class="project-name">
+              <h3>Project One</h2>
+            </div>
+            <div class="project-links">
+              <button class="project-btn btn" onclick="location.href='https://github.com/Islamhany1'">Github</button>
+              <button class="project-btn btn" onclick="location.href=''">Live Demo</button>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <p>Get In Touch</p>
+        <h2>Contact Me</h2>
+        <div class="email-linkedin-container">
+          <div class="email">
+            <figure>
+              <img src="./assets/email.png" alt="my email">
+                          <a href="mailto:eslamhany166@yahoo.com">My Personal Email</a>
+            </figure>
+          </div>
+          <div class="linkedin">
+            <figure>
+              <img src="./assets/linkedin.png" alt="my email">
+              <a href="https://www.linkedin.com/in/eslam-elkasabi-0b8a27271/">My Linkedin</a>
+            </figure>
+            
+            
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <nav class="page-navigation-desktop">
+          <ul class="desktop-links">
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#experience">Experience</a>
+            </li>
+            <li>
+              <a href="#projects"> Projects</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <p>Copyright &copy; 2023 Islam Hany: All Rights Reserved </p>
+    </footer>
+  </body>
+</html>

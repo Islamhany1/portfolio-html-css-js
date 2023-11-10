@@ -1,0 +1,46 @@
+@media screen and (max-width: 1200px) {
+
+    .desktop-nav {
+        display: none;
+    }
+
+    .mobile-nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 17vh;
+    }
+
+    .desktop-nav,
+    .desktop-links,
+    .all-projects {
+        flex-wrap: wrap;
+    }
+
+    header {
+        margin-bottom: 150px;
+    }
+
+    .btn {
+        width: 110px;
+        font-size: 0.85rem;
+    }
+
+    .education-pic img {
+        width: 200px;
+    }
+
+    .education img {
+        width: 50px;
+    }
+    
+    .education div{
+        position: relative;
+        left: -200px
+    }
+
+
+
+    
+    
+}
